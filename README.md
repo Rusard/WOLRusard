@@ -27,3 +27,14 @@ Le projet est entièrement réalisé en SwiftUI et ne dépend d'aucune biblioth�
 3. **Compiler et lancer**
 
    Sélectionnez un simulateur ou un appareil physique puis cliquez sur *Run* pour installer l'application.
+
+## Utilisation en ligne de commande
+
+Un utilitaire CLI est fourni pour envoyer un paquet WOL depuis macOS ou Linux :
+
+```bash
+swift build
+.build/debug/wakeonlan-cli <MAC> <IP> [PORT]
+```
+
+L'exécutable enverra un paquet magique vers l'adresse fournie et affichera un message de confirmation.
