@@ -10,3 +10,20 @@ Fonctionnalités principales :
 - Intégration Siri via `AppIntents` pour dire : *"Allume [nom de l'ordinateur]"*.
 
 Le projet est entièrement réalisé en SwiftUI et ne dépend d'aucune bibliothèque tierce.
+
+## Installation
+
+1. **Cloner le dépôt**
+
+   ```bash
+   git clone <URL-du-dépôt>
+   cd Wake-on-line
+   ```
+
+2. **Ouvrir le projet**
+
+   Ouvrez le dossier `WakeOnLine` dans Xcode (version 15 ou supérieure).
+
+3. **Compiler et lancer**
+
+   Sélectionnez un simulateur ou un appareil physique puis cliquez sur *Run* pour installer l'application.
